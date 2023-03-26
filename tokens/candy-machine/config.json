@@ -1,0 +1,20 @@
+{
+  "number": 5,
+  "symbol": "FDOG",
+  "sellerFeeBasisPoints": 100,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "6EpAeNwHxPxBqhtpQ7kKj9MRih4y3hBCkYP9Kui1zr3i",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": null
+}
