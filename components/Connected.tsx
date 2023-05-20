@@ -41,7 +41,7 @@ const Connected: FC = () => {
     metaplex
       .candyMachinesV2()
       .findByAddress({
-        address: new PublicKey("Bm5pV92Koc51ah3CTZ4w8TicqD9mbRT3fuweWzumYoCs"),
+        address: new PublicKey("12HxZg9TXwmsLtJisyAZRVZwfm4BJRPyB37WJjjUxdnH"),
       })
       .then((candyMachine) => {
         console.log(candyMachine)
@@ -92,7 +92,6 @@ const Connected: FC = () => {
           >
             Welcome Buildoor.
           </Heading>
-
           <Text color="bodyText" fontSize="xl" textAlign="center">
             Each buildoor is randomly generated and can be staked to receive
             <Text as="b"> $BLD</Text>. Use your <Text as="b"> $BLD</Text> to
@@ -102,11 +101,11 @@ const Connected: FC = () => {
       </Container>
 
       <HStack spacing={10}>
-        <Image src="avatar1.png" alt="" />
-        <Image src="avatar2.png" alt="" />
-        <Image src="avatar3.png" alt="" />
-        <Image src="avatar4.png" alt="" />
-        <Image src="avatar5.png" alt="" />
+        <Image src="/images/avatar1.png" alt="" />
+        <Image src="/images/avatar2.png" alt="" />
+        <Image src="/images/avatar3.png" alt="" />
+        <Image src="/images/avatar4.png" alt="" />
+        <Image src="/images/avatar5.png" alt="" />
       </HStack>
 
       <Button
