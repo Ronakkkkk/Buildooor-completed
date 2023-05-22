@@ -19,7 +19,7 @@ import {
 const TOKEN_NAME = "BUILD";
 const TOKEN_SYMBOL = "BLD";
 const TOKEN_DESCRIPTION = "A token for buildoors";
-const TOKEN_IMAGE_NAME = "unicorn.jpnpg"; // Replace unicorn.png with your image name
+const TOKEN_IMAGE_NAME = "unicorn.jpg"; // Replace unicorn.png with your image name
 const TOKEN_IMAGE_PATH = `tokens/bld/assets/${TOKEN_IMAGE_NAME}`;
 
 async function createBldToken(
